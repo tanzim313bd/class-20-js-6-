@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 2000px;
+}
+a{
+    text-decoration: none;
+}
+#change_color {
+    height: 100vh;
+    background: rgb(255, 10, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#change_color button {
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+
+
+.btn-scroll{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B2BABB ;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    line-height: 40px;
+    text-align: center;
+    transition: 0.5s ;
+}
+.btn-scroll.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+#multi_form{
+    height: 100vh;
+    background-image:url(../images/download\ \(3\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#multi_form .container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#multi_form .form_num1{
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+#multi_form .form_num1 .steps a{
+    color: black;
+    font-size: 12px;
+    
+}
+#multi_form .form_num1 h2{
+    padding: 40px 0;
+    color: #999;
+}
+#multi_form .form_num1 .form input{
+    padding: 10px;
+    width: 100% ;
+}
+#multi_form .form_num1 .form .email{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+#multi_form .form_num1 .form .pass{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;  
+}
+#multi_form .form_num1 .form .confirm_pass{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;  
+}
+#multi_form .form_num1 .btn{
+    text-align: center;
+}
+#multi_form .form_num1 button{
+    width: 110px;
+    height: 35px;
+    margin: 20px 0;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
